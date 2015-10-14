@@ -1,0 +1,18 @@
+<li class='gistbook-list'>
+  <div class='gistbook-title'>
+    <div class='title-container'>
+      <span class='octicon octicon-book'></span>
+      <a href='/{{ username }}/{{ id }}'>{{ description }}</a>
+    </div>
+    {{#unless public }}
+    <div class='secret-container'>
+      <span class='secret'>SECRET</span>
+    </div>
+    {{/unless }}
+  </div>
+  <ul>
+    <li>
+      <span class='octicon octicon-trashcan hide'></span>
+    </li>
+  </ul>
+</li>

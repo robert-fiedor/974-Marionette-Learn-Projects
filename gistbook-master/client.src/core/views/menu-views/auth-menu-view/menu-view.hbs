@@ -1,0 +1,33 @@
+<ul>
+  <li class='new-button'>
+    <a href='/new'>
+      <button>
+        <span class='icon-feather'></span>
+        New Gistbook
+      </button>
+    </a>
+  </li>
+  <li class='profile-link'>
+    <a href='/{{ login }}'>
+      <img src='{{ avatar_url }}&s=28' alt='Gravatar'>
+    </a>
+  </li>
+  <li>
+    <span class="octicon octicon-triangle-down"></span>
+    <ul class='dropdown-menu'>
+      <li>
+        <a href='/settings'>
+          <span class="octicon octicon-gear"></span>
+          Settings
+        </a>
+      </li>
+      <li>
+        <a href='/logout'>
+          <span class="octicon octicon-sign-out"></span>
+          Sign Out
+        </a>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class='dropdown-mask'></div>

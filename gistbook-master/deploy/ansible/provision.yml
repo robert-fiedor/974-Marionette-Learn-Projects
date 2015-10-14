@@ -1,0 +1,12 @@
+---
+# provision machine and deploy code
+
+- hosts: all
+  remote_user: ubuntu
+  sudo: yes
+  roles:
+    - base
+    - nginx
+    - services
+    - deploy
+    - startup

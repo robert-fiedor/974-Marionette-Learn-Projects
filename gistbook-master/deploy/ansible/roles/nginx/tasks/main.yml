@@ -1,0 +1,8 @@
+---
+# configure nginx
+
+- name: make sure nginx has a configuration file
+  template: src=gistbook.conf dest=/etc/nginx/conf.d/gistbook.conf backup=no
+
+- name: restart nginx
+  service: name=nginx state=restarted

@@ -1,0 +1,25 @@
+<div class='boxed-group'>
+  <div class='boxed-group-header'>
+    Github Authorizations
+  </div>
+  <div class='boxed-group-body'>
+    <p>
+      You have granted Gistbook access to certain areas of your Github account.
+    </p>
+    <p>
+      Gistbook can access your:
+    </p>
+    <p>
+      <ul class='bullet'>
+      {{#each scopes }}
+        <li>{{ scopeMap this }}</li>
+      {{/each}}
+      </ul>
+    </p>
+    <p>
+      <button class='danger'>
+        Revoke Access
+      </button>
+    </p>
+  </div>
+</div>

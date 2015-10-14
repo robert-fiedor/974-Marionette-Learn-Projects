@@ -1,0 +1,22 @@
+<div class='boxed-group profile-list'>
+  <div class='boxed-group-header'>
+    Gistbooks
+  </div>
+  <div class='boxed-group-body'></div>
+</div>
+<div class='profile-side-bar'>
+  <img src='{{ avatar_url }}' alt='{{ name }}'>
+  <div class='profile-names'>
+    <span class='full-name'>{{ name }}</span>
+    <span class='username'>{{ login }}</span>
+  </div>
+  <div class='gistbook-count'>
+    <span>{{ gistbooks.length }}</span> {{ gistbooksLabel }}
+  </div>
+  <a href='{{ html_url }}' target='_blank'>
+    <button>
+      <span class='octicon octicon-octoface'></span>
+      {{ login }} on Github
+    </button>
+  </a>
+</div>

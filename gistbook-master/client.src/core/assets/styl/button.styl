@@ -1,0 +1,75 @@
+.compound-button
+  display flex
+
+  button, .button
+    margin-right 0
+    border-radius 3px 0 0 3px
+
+  .button-count
+    font-size 13px
+    font-weight bold
+    border-radius 0 3px 3px 0
+    border 0
+    line-height 26px
+    height 28px
+    padding 0 7px
+    display block
+
+button, .button
+  height 30px
+  text-decoration none
+  font-size 15px
+  font-family Arial, sans-serif
+  color lighten($purple, 38)
+  border-radius 2px
+  border none
+  border-bottom 2px solid darken($purple, 10)
+  display inline-block
+  outline none
+  box-sizing border-box
+  background-color $purple
+  padding 1px 12px
+
+  &:hover
+    background-color darken($purple, 10)
+    
+  &:disabled
+    color #f1f1f1
+    background-color #929292
+    border-color #929292
+    
+  &.blue
+    color lighten($teal, 55)
+    background-color $teal
+    border-bottom-color darken($teal, 10)
+    
+    &:hover, &:active
+      background-color darken($teal, 10)
+      
+  &.danger
+    color lighten($danger, 50)
+    background-color $danger
+    border-bottom-color darken($danger, 10)
+    
+    &:hover, &:active
+      background-color darken($danger, 10)
+      
+  &.dark
+    background-color $darkBlue
+    color lighten($darkBlue, 50)
+    border-bottom-color darken($darkBlue, 10)
+    
+    &:hover, &:active
+      background-color darken($darkBlue, 10)
+      
+  &.large
+    height 48px
+    padding 0 15px
+    font-size 19px
+    
+    .octicon
+      font-size 19px
+    
+    &:hover, &:active
+      padding 0 14px
+    

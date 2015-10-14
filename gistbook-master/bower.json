@@ -1,0 +1,36 @@
+{
+  "name": "gistbook",
+  "version": "0.2.1",
+  "homepage": "https://github.com/Gistbook/gistbook",
+  "authors": [
+    "Jmeas <jellyes2@gmail.com>"
+  ],
+  "description": "A place to share code snippets on the web.",
+  "keywords": [
+    "gist",
+    "gistbook",
+    "gists",
+    "github",
+    "javascript",
+    "html",
+    "css",
+    "interactive",
+    "snippets",
+    "code",
+    "social",
+    "sharing"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test"
+  ],
+  "dependencies": {
+    "html5-reset": "~2.1.2",
+    "nib": "~1.0.2",
+    "octicons": "~2.1.1",
+    "entypo": "*"
+  }
+}
